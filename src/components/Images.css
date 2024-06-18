@@ -1,0 +1,39 @@
+.product_one{
+    display: flex;
+    margin-left: 212px;
+    margin-top: 70px;
+    width: 360px;
+    height: 360px;
+    background: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.322);
+}
+.product_one:hover{
+    cursor: pointer;
+}
+
+.thumbnailImages {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+    width: auto;
+    margin-top: 20px;
+    margin-left: 200px;
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.thumbnailImages img {
+    width: 75px;
+    height: 75px;
+    margin: 10px; 
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.thumbnailImages img:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.322);
+    cursor: pointer;
+}
