@@ -4,8 +4,6 @@ import logo from '../images/logo.svg';
 import cart from '../images/icon-cart.svg'
 import avatar from '../images/image-avatar.png'
 
-
-
 function Navbar(){
     return (
         <Router>
